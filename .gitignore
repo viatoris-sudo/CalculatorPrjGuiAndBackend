@@ -1,0 +1,31 @@
+# Игнорировать временные файлы компиляции
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Файлы Qt Creator
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+Makefile
+CMakeLists.txt.user
+
+# Каталоги сборки
+build/
+bin/
+debug/
+release/
+cmake-build-*/
+TestExampleEmpty/
+QtCalcTestProj/
+QtCalcProj/
+
+# Логи и временные файлы
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
