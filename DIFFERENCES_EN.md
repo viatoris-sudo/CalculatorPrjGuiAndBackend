@@ -52,22 +52,22 @@ This document describes the main differences between this calculator implementat
 - ❌ **Percent (%)** - Button present but function not implemented
   - Defined in `operations_t` enum as `PERCENT`
   - Has empty case in switch statement
-  - Not connected to GUI (line 153 commented out)
+  - Not connected to GUI (commented out in `standardCalcGui.cpp`)
 
 - ❌ **Reciprocal (1/x)** - Not implemented
   - Button present in GUI
   - No corresponding enum value
-  - Not connected to handler (line 157 commented out)
+  - Not connected to handler (commented out in `standardCalcGui.cpp`)
 
 - ❌ **Square (x²)** - Not implemented
   - Button present in GUI
   - `SQR` exists in enum but unused
-  - Not connected to handler (line 158 commented out)
+  - Not connected to handler (commented out in `standardCalcGui.cpp`)
 
 - ❌ **Square Root (√x)** - Not implemented
   - Button present in GUI
   - `SQRT` exists in enum but unused
-  - Not connected to handler (line 159 commented out)
+  - Not connected to handler (commented out in `standardCalcGui.cpp`)
 
 ### Missing Windows Calculator Features
 This implementation does **not** include the following features from the full Windows Calculator:
