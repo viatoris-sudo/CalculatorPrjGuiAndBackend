@@ -2,6 +2,23 @@
 
 This document describes the main differences between this calculator implementation and the standard Windows Calculator.
 
+## Quick Reference
+
+| Category | Status | Notes |
+|----------|--------|-------|
+| Basic arithmetic operations (+, -, *, /) | ✅ Implemented | Full support |
+| Input and editing (digits, dot, backspace) | ✅ Implemented | Full support |
+| Clear (C, CE) | ✅ Implemented | Full support |
+| Sign change (+/-) | ✅ Implemented | Full support |
+| Percent (%) | ❌ Not implemented | Button present, no function |
+| Reciprocal (1/x) | ❌ Not implemented | Button present, no function |
+| Square (x²) | ❌ Not implemented | Button present, no function |
+| Square root (√x) | ❌ Not implemented | Button present, no function |
+| Memory (M+, M-, MR, MC) | ❌ Not implemented | Missing |
+| Scientific mode | ❌ Not implemented | Missing |
+| Calculation history | ❌ Not implemented | Missing |
+| Parentheses | ❌ Not implemented | Missing |
+
 ## Implemented Features
 
 ### Basic Arithmetic Operations
